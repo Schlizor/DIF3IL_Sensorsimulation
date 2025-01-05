@@ -3,10 +3,10 @@
 This Repository is part of a project for the course "Digitale Fabrik".
 It is just a Unity-ROS-TCP Endpoint which uses Octomap and different topics to show it in RViz.
 
-Background: I simulate an 3D-LiDAR and a RGBD-Camera in Unity and send the data to ROS through ROS Topics.
+Background: Simulation of an 3D-LiDAR and a RGBD-Camera in Unity with sending the data to ROS through ROS Topics.
 
 >[!CAUTION]
-> The Unity Project is not part of the repo!]
+> The Unity Project is not part of the repo!
 
 I have used ROS2 Humble but I guess any **ROS2** version should work.
 
@@ -33,7 +33,6 @@ source install/setup.bash
 
 Run the package with:
 
-
  ```bash
 ros2 launch ros_tcp_endpoint custom.py
  ```
@@ -44,4 +43,4 @@ Rviz2 should open and you should see the cotomap and the topics from Unity.
 
 # Credits
 
-Untiy-ROS-TCP-Endpoint is from (Unity-Technologies){https://github.com/Unity-Technologies/ROS-TCP-Endpoint}
+Untiy-ROS-TCP-Endpoint is from https://github.com/Unity-Technologies/ROS-TCP-Endpoint
